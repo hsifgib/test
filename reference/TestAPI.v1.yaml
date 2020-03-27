@@ -1,0 +1,16 @@
+openapi: 3.0.0
+info:
+  title: TestAPI
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /app/signIn:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-app-signIn
+      description: 签到接口
+components:
+  schemas: {}
